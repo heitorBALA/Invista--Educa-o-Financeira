@@ -1,8 +1,7 @@
 [build]
-  # comando que o Netlify vai executar
   command = "npm run build"
-  # diretório que será publicado
   publish = "dist/public"
+  base = "" # Add your base directory here, e.g., "frontend" or "app"
 
 # Redirecionamento para suportar SPA (React Router, wouter, etc.)
 [[redirects]]
